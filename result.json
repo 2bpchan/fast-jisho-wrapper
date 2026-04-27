@@ -1,0 +1,1218 @@
+{
+  "meta": {
+    "status": 200
+  },
+  "data": [
+    {
+      "slug": "此れ",
+      "is_common": true,
+      "tags": [
+        "wanikani55"
+      ],
+      "jlpt": [
+        "jlpt-n1",
+        "jlpt-n5"
+      ],
+      "japanese": [
+        {
+          "word": "此れ",
+          "reading": "これ"
+        },
+        {
+          "word": "是",
+          "reading": "これ"
+        },
+        {
+          "word": "之",
+          "reading": "これ"
+        },
+        {
+          "word": "維",
+          "reading": "これ"
+        },
+        {
+          "word": "惟",
+          "reading": "これ"
+        }
+      ],
+      "senses": [
+        {
+          "english_definitions": [
+            "this",
+            "this one"
+          ],
+          "parts_of_speech": [
+            "Pronoun"
+          ],
+          "links": [],
+          "tags": [
+            "Usually written using kana alone"
+          ],
+          "restrictions": [],
+          "see_also": [
+            "それ",
+            "あれ",
+            "どれ"
+          ],
+          "antonyms": [],
+          "source": [],
+          "info": [
+            "indicating an item near the speaker, the action of the speaker, or the current topic"
+          ]
+        },
+        {
+          "english_definitions": [
+            "this person"
+          ],
+          "parts_of_speech": [
+            "Pronoun"
+          ],
+          "links": [],
+          "tags": [
+            "Usually written using kana alone"
+          ],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": [
+            "usu. indicating someone in one's in-group"
+          ]
+        },
+        {
+          "english_definitions": [
+            "now",
+            "this point (in time)"
+          ],
+          "parts_of_speech": [
+            "Pronoun"
+          ],
+          "links": [],
+          "tags": [
+            "Usually written using kana alone"
+          ],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": [
+            "as これから, これまで, etc."
+          ]
+        },
+        {
+          "english_definitions": [
+            "here"
+          ],
+          "parts_of_speech": [
+            "Pronoun"
+          ],
+          "links": [],
+          "tags": [
+            "Dated term",
+            "Usually written using kana alone"
+          ],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        },
+        {
+          "english_definitions": [
+            "used to stress the subject of a sentence"
+          ],
+          "parts_of_speech": [
+            "Adverb (fukushi)"
+          ],
+          "links": [],
+          "tags": [
+            "Formal or literary term",
+            "Usually written using kana alone"
+          ],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        },
+        {
+          "english_definitions": [
+            "I",
+            "me"
+          ],
+          "parts_of_speech": [
+            "Pronoun"
+          ],
+          "links": [],
+          "tags": [
+            "Archaic"
+          ],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        }
+      ],
+      "attribution": {
+        "jmdict": true,
+        "jmnedict": false,
+        "dbpedia": false
+      }
+    },
+    {
+      "slug": "これ",
+      "is_common": false,
+      "tags": [],
+      "jlpt": [],
+      "japanese": [
+        {
+          "reading": "これ"
+        }
+      ],
+      "senses": [
+        {
+          "english_definitions": [
+            "hey",
+            "oi",
+            "come on",
+            "look",
+            "listen"
+          ],
+          "parts_of_speech": [],
+          "links": [],
+          "tags": [],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": [
+            "used to get the attention of one's equals or inferiors"
+          ]
+        }
+      ],
+      "attribution": {
+        "jmdict": true,
+        "jmnedict": false,
+        "dbpedia": false
+      }
+    },
+    {
+      "slug": "此れから",
+      "is_common": true,
+      "tags": [],
+      "jlpt": [
+        "jlpt-n4"
+      ],
+      "japanese": [
+        {
+          "word": "此れから",
+          "reading": "これから"
+        },
+        {
+          "word": "是から",
+          "reading": "これから"
+        }
+      ],
+      "senses": [
+        {
+          "english_definitions": [
+            "from now on",
+            "after this",
+            "in the future",
+            "in future"
+          ],
+          "parts_of_speech": [
+            "Expressions (phrases, clauses, etc.)"
+          ],
+          "links": [],
+          "tags": [
+            "Usually written using kana alone"
+          ],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        },
+        {
+          "english_definitions": [
+            "from here",
+            "from this point"
+          ],
+          "parts_of_speech": [
+            "Expressions (phrases, clauses, etc.)"
+          ],
+          "links": [],
+          "tags": [
+            "Usually written using kana alone"
+          ],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        }
+      ],
+      "attribution": {
+        "jmdict": true,
+        "jmnedict": false,
+        "dbpedia": false
+      }
+    },
+    {
+      "slug": "これ等",
+      "is_common": true,
+      "tags": [],
+      "jlpt": [
+        "jlpt-n3",
+        "jlpt-n1"
+      ],
+      "japanese": [
+        {
+          "word": "これ等",
+          "reading": "これら"
+        },
+        {
+          "word": "此等",
+          "reading": "これら"
+        },
+        {
+          "word": "是等",
+          "reading": "これら"
+        },
+        {
+          "word": "之等",
+          "reading": "これら"
+        },
+        {
+          "word": "此れ等",
+          "reading": "これら"
+        }
+      ],
+      "senses": [
+        {
+          "english_definitions": [
+            "these"
+          ],
+          "parts_of_speech": [
+            "Pronoun"
+          ],
+          "links": [],
+          "tags": [
+            "Usually written using kana alone"
+          ],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        }
+      ],
+      "attribution": {
+        "jmdict": true,
+        "jmnedict": false,
+        "dbpedia": false
+      }
+    },
+    {
+      "slug": "コレクション",
+      "is_common": true,
+      "tags": [],
+      "jlpt": [
+        "jlpt-n2"
+      ],
+      "japanese": [
+        {
+          "reading": "コレクション"
+        }
+      ],
+      "senses": [
+        {
+          "english_definitions": [
+            "collection (of art, stamps, etc.)",
+            "collecting"
+          ],
+          "parts_of_speech": [
+            "Noun",
+            "Suru verb",
+            "Transitive verb"
+          ],
+          "links": [],
+          "tags": [],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        },
+        {
+          "english_definitions": [
+            "collection (i.e. a range of new clothes)",
+            "fashion show"
+          ],
+          "parts_of_speech": [
+            "Noun"
+          ],
+          "links": [],
+          "tags": [],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        },
+        {
+          "english_definitions": [
+            "Collecting"
+          ],
+          "parts_of_speech": [
+            "Wikipedia definition"
+          ],
+          "links": [
+            {
+              "text": "Read “Collecting” on English Wikipedia",
+              "url": "http://en.wikipedia.org/wiki/Collecting?oldid=495350366"
+            },
+            {
+              "text": "Read “コレクション” on Japanese Wikipedia",
+              "url": "http://ja.wikipedia.org/wiki/コレクション?oldid=41401250"
+            }
+          ],
+          "tags": [],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": [],
+          "sentences": []
+        }
+      ],
+      "attribution": {
+        "jmdict": true,
+        "jmnedict": false,
+        "dbpedia": "http://dbpedia.org/resource/Collecting"
+      }
+    },
+    {
+      "slug": "虎列剌",
+      "is_common": true,
+      "tags": [],
+      "jlpt": [],
+      "japanese": [
+        {
+          "word": "虎列刺",
+          "reading": "コレラ"
+        },
+        {
+          "word": "虎列剌",
+          "reading": "コレラ"
+        }
+      ],
+      "senses": [
+        {
+          "english_definitions": [
+            "cholera"
+          ],
+          "parts_of_speech": [
+            "Noun"
+          ],
+          "links": [],
+          "tags": [
+            "Medicine",
+            "Usually written using kana alone"
+          ],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [
+            {
+              "language": "English",
+              "word": ""
+            },
+            {
+              "language": "Dutch; Flemish",
+              "word": ""
+            }
+          ],
+          "info": []
+        },
+        {
+          "english_definitions": [
+            "Cholera"
+          ],
+          "parts_of_speech": [
+            "Wikipedia definition"
+          ],
+          "links": [
+            {
+              "text": "Read “Cholera” on English Wikipedia",
+              "url": "http://en.wikipedia.org/wiki/Cholera?oldid=494696975"
+            },
+            {
+              "text": "Read “コレラ” on Japanese Wikipedia",
+              "url": "http://ja.wikipedia.org/wiki/コレラ?oldid=42660105"
+            }
+          ],
+          "tags": [],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": [],
+          "sentences": []
+        }
+      ],
+      "attribution": {
+        "jmdict": true,
+        "jmnedict": false,
+        "dbpedia": "http://dbpedia.org/resource/Cholera"
+      }
+    },
+    {
+      "slug": "此れ迄",
+      "is_common": true,
+      "tags": [],
+      "jlpt": [],
+      "japanese": [
+        {
+          "word": "これ迄",
+          "reading": "これまで"
+        },
+        {
+          "word": "此れまで",
+          "reading": "これまで"
+        },
+        {
+          "word": "是迄",
+          "reading": "これまで"
+        },
+        {
+          "word": "此れ迄",
+          "reading": "これまで"
+        }
+      ],
+      "senses": [
+        {
+          "english_definitions": [
+            "so far",
+            "up to now",
+            "hitherto"
+          ],
+          "parts_of_speech": [
+            "Expressions (phrases, clauses, etc.)",
+            "Noun which may take the genitive case particle 'no'"
+          ],
+          "links": [],
+          "tags": [
+            "Usually written using kana alone"
+          ],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        },
+        {
+          "english_definitions": [
+            "that's enough (for today)",
+            "it ends here"
+          ],
+          "parts_of_speech": [
+            "Expressions (phrases, clauses, etc.)"
+          ],
+          "links": [],
+          "tags": [
+            "Usually written using kana alone"
+          ],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        }
+      ],
+      "attribution": {
+        "jmdict": true,
+        "jmnedict": false,
+        "dbpedia": false
+      }
+    },
+    {
+      "slug": "コレクター",
+      "is_common": true,
+      "tags": [],
+      "jlpt": [],
+      "japanese": [
+        {
+          "reading": "コレクター"
+        },
+        {
+          "reading": "コレクタ"
+        }
+      ],
+      "senses": [
+        {
+          "english_definitions": [
+            "collector"
+          ],
+          "parts_of_speech": [
+            "Noun"
+          ],
+          "links": [],
+          "tags": [],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        },
+        {
+          "english_definitions": [
+            "Collector"
+          ],
+          "parts_of_speech": [
+            "Wikipedia definition"
+          ],
+          "links": [
+            {
+              "text": "Read “Collector” on English Wikipedia",
+              "url": "http://en.wikipedia.org/wiki/Collector?oldid=483149952"
+            },
+            {
+              "text": "Read “コレクター” on Japanese Wikipedia",
+              "url": "http://ja.wikipedia.org/wiki/コレクター?oldid=36777148"
+            }
+          ],
+          "tags": [],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": [],
+          "sentences": []
+        }
+      ],
+      "attribution": {
+        "jmdict": true,
+        "jmnedict": false,
+        "dbpedia": "http://dbpedia.org/resource/Collector"
+      }
+    },
+    {
+      "slug": "コレステロール",
+      "is_common": true,
+      "tags": [],
+      "jlpt": [],
+      "japanese": [
+        {
+          "reading": "コレステロール"
+        }
+      ],
+      "senses": [
+        {
+          "english_definitions": [
+            "cholesterol"
+          ],
+          "parts_of_speech": [
+            "Noun"
+          ],
+          "links": [],
+          "tags": [],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        },
+        {
+          "english_definitions": [
+            "Cholesterol"
+          ],
+          "parts_of_speech": [
+            "Wikipedia definition"
+          ],
+          "links": [
+            {
+              "text": "Read “Cholesterol” on English Wikipedia",
+              "url": "http://en.wikipedia.org/wiki/Cholesterol?oldid=494378115"
+            },
+            {
+              "text": "Read “コレステロール” on Japanese Wikipedia",
+              "url": "http://ja.wikipedia.org/wiki/コレステロール?oldid=42762498"
+            }
+          ],
+          "tags": [],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": [],
+          "sentences": []
+        }
+      ],
+      "attribution": {
+        "jmdict": true,
+        "jmnedict": false,
+        "dbpedia": "http://dbpedia.org/resource/Cholesterol"
+      }
+    },
+    {
+      "slug": "此れ丈",
+      "is_common": false,
+      "tags": [],
+      "jlpt": [],
+      "japanese": [
+        {
+          "word": "此れ丈",
+          "reading": "これだけ"
+        },
+        {
+          "word": "是丈",
+          "reading": "これだけ"
+        }
+      ],
+      "senses": [
+        {
+          "english_definitions": [
+            "to this extent",
+            "to this degree",
+            "this much",
+            "this little"
+          ],
+          "parts_of_speech": [
+            "Adverb (fukushi)",
+            "Noun which may take the genitive case particle 'no'"
+          ],
+          "links": [],
+          "tags": [
+            "Usually written using kana alone"
+          ],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        }
+      ],
+      "attribution": {
+        "jmdict": true,
+        "jmnedict": false,
+        "dbpedia": false
+      }
+    },
+    {
+      "slug": "此れ程",
+      "is_common": false,
+      "tags": [],
+      "jlpt": [],
+      "japanese": [
+        {
+          "word": "これ程",
+          "reading": "これほど"
+        },
+        {
+          "word": "此れほど",
+          "reading": "これほど"
+        },
+        {
+          "word": "是ほど",
+          "reading": "これほど"
+        },
+        {
+          "word": "是程",
+          "reading": "これほど"
+        },
+        {
+          "word": "此れ程",
+          "reading": "これほど"
+        }
+      ],
+      "senses": [
+        {
+          "english_definitions": [
+            "so",
+            "so much",
+            "this much"
+          ],
+          "parts_of_speech": [
+            "Adverb (fukushi)",
+            "Noun"
+          ],
+          "links": [],
+          "tags": [
+            "Usually written using kana alone"
+          ],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        }
+      ],
+      "attribution": {
+        "jmdict": true,
+        "jmnedict": false,
+        "dbpedia": false
+      }
+    },
+    {
+      "slug": "これ位",
+      "is_common": false,
+      "tags": [],
+      "jlpt": [],
+      "japanese": [
+        {
+          "word": "これ位",
+          "reading": "これくらい"
+        },
+        {
+          "word": "これ位",
+          "reading": "これぐらい"
+        },
+        {
+          "word": "此れ位",
+          "reading": "これくらい"
+        },
+        {
+          "word": "此れ位",
+          "reading": "これぐらい"
+        },
+        {
+          "word": "是位",
+          "reading": "これくらい"
+        },
+        {
+          "word": "是位",
+          "reading": "これぐらい"
+        }
+      ],
+      "senses": [
+        {
+          "english_definitions": [
+            "this much",
+            "this amount"
+          ],
+          "parts_of_speech": [
+            "Noun",
+            "Adverb (fukushi)"
+          ],
+          "links": [],
+          "tags": [
+            "Usually written using kana alone"
+          ],
+          "restrictions": [],
+          "see_also": [
+            "この位"
+          ],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        }
+      ],
+      "attribution": {
+        "jmdict": true,
+        "jmnedict": false,
+        "dbpedia": false
+      }
+    },
+    {
+      "slug": "此れっぽっち",
+      "is_common": false,
+      "tags": [],
+      "jlpt": [],
+      "japanese": [
+        {
+          "word": "此れっぽっち",
+          "reading": "これっぽっち"
+        },
+        {
+          "word": "是っぽっち",
+          "reading": "これっぽっち"
+        }
+      ],
+      "senses": [
+        {
+          "english_definitions": [
+            "(this) small amount",
+            "(such a) paltry amount",
+            "only this much",
+            "slightest bit"
+          ],
+          "parts_of_speech": [
+            "Noun",
+            "Noun which may take the genitive case particle 'no'"
+          ],
+          "links": [],
+          "tags": [
+            "Colloquial",
+            "Usually written using kana alone"
+          ],
+          "restrictions": [],
+          "see_also": [
+            "これっぱかり"
+          ],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        }
+      ],
+      "attribution": {
+        "jmdict": true,
+        "jmnedict": false,
+        "dbpedia": false
+      }
+    },
+    {
+      "slug": "これっ切り",
+      "is_common": false,
+      "tags": [],
+      "jlpt": [],
+      "japanese": [
+        {
+          "word": "此れっ切り",
+          "reading": "これっきり"
+        },
+        {
+          "word": "是っ切り",
+          "reading": "これっきり"
+        }
+      ],
+      "senses": [
+        {
+          "english_definitions": [
+            "last time (as of now)",
+            "never again"
+          ],
+          "parts_of_speech": [
+            "Noun",
+            "Adverb (fukushi)"
+          ],
+          "links": [],
+          "tags": [
+            "Usually written using kana alone"
+          ],
+          "restrictions": [],
+          "see_also": [
+            "これきり"
+          ],
+          "antonyms": [],
+          "source": [],
+          "info": [
+            "more emphatic than これきり"
+          ]
+        },
+        {
+          "english_definitions": [
+            "only this"
+          ],
+          "parts_of_speech": [
+            "Noun",
+            "Adverb (fukushi)"
+          ],
+          "links": [],
+          "tags": [
+            "Usually written using kana alone"
+          ],
+          "restrictions": [],
+          "see_also": [
+            "これきり"
+          ],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        }
+      ],
+      "attribution": {
+        "jmdict": true,
+        "jmnedict": false,
+        "dbpedia": false
+      }
+    },
+    {
+      "slug": "これで",
+      "is_common": true,
+      "tags": [],
+      "jlpt": [],
+      "japanese": [
+        {
+          "reading": "これで"
+        }
+      ],
+      "senses": [
+        {
+          "english_definitions": [
+            "here",
+            "with this"
+          ],
+          "parts_of_speech": [
+            "Expressions (phrases, clauses, etc.)"
+          ],
+          "links": [],
+          "tags": [],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        }
+      ],
+      "attribution": {
+        "jmdict": true,
+        "jmnedict": false,
+        "dbpedia": false
+      }
+    },
+    {
+      "slug": "コレクトコール",
+      "is_common": false,
+      "tags": [],
+      "jlpt": [],
+      "japanese": [
+        {
+          "reading": "コレクトコール"
+        },
+        {
+          "reading": "コレクト・コール"
+        }
+      ],
+      "senses": [
+        {
+          "english_definitions": [
+            "collect call"
+          ],
+          "parts_of_speech": [
+            "Noun"
+          ],
+          "links": [],
+          "tags": [],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        },
+        {
+          "english_definitions": [
+            "Collect call"
+          ],
+          "parts_of_speech": [
+            "Wikipedia definition"
+          ],
+          "links": [
+            {
+              "text": "Read “Collect call” on English Wikipedia",
+              "url": "http://en.wikipedia.org/wiki/Collect_call?oldid=495480281"
+            },
+            {
+              "text": "Read “コレクトコール” on Japanese Wikipedia",
+              "url": "http://ja.wikipedia.org/wiki/コレクトコール?oldid=40775618"
+            }
+          ],
+          "tags": [],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": [],
+          "sentences": []
+        }
+      ],
+      "attribution": {
+        "jmdict": true,
+        "jmnedict": false,
+        "dbpedia": "http://dbpedia.org/resource/Collect_call"
+      }
+    },
+    {
+      "slug": "コレラ菌",
+      "is_common": false,
+      "tags": [],
+      "jlpt": [],
+      "japanese": [
+        {
+          "word": "コレラ菌",
+          "reading": "コレラきん"
+        }
+      ],
+      "senses": [
+        {
+          "english_definitions": [
+            "vibrio cholerae"
+          ],
+          "parts_of_speech": [
+            "Noun"
+          ],
+          "links": [],
+          "tags": [],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        },
+        {
+          "english_definitions": [
+            "Vibrio cholerae"
+          ],
+          "parts_of_speech": [
+            "Wikipedia definition"
+          ],
+          "links": [
+            {
+              "text": "Read “Vibrio cholerae” on English Wikipedia",
+              "url": "http://en.wikipedia.org/wiki/Vibrio_cholerae?oldid=495516117"
+            },
+            {
+              "text": "Read “コレラ菌” on Japanese Wikipedia",
+              "url": "http://ja.wikipedia.org/wiki/コレラ菌?oldid=41346260"
+            }
+          ],
+          "tags": [],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": [],
+          "sentences": []
+        }
+      ],
+      "attribution": {
+        "jmdict": true,
+        "jmnedict": false,
+        "dbpedia": "http://dbpedia.org/resource/Vibrio_cholerae"
+      }
+    },
+    {
+      "slug": "これを機に",
+      "is_common": false,
+      "tags": [],
+      "jlpt": [],
+      "japanese": [
+        {
+          "word": "これを機に",
+          "reading": "これをきに"
+        },
+        {
+          "word": "これを期に",
+          "reading": "これをきに"
+        }
+      ],
+      "senses": [
+        {
+          "english_definitions": [
+            "with this (as a reason, excuse, impetus, starting point, etc.)",
+            "taking this as an opportunity",
+            "as a result (of this)",
+            "as a consequence",
+            "from this point forward"
+          ],
+          "parts_of_speech": [
+            "Expressions (phrases, clauses, etc.)"
+          ],
+          "links": [],
+          "tags": [
+            "Formal or literary term"
+          ],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        }
+      ],
+      "attribution": {
+        "jmdict": true,
+        "jmnedict": false,
+        "dbpedia": false
+      }
+    },
+    {
+      "slug": "此れ迄に",
+      "is_common": false,
+      "tags": [],
+      "jlpt": [],
+      "japanese": [
+        {
+          "word": "此れ迄に",
+          "reading": "これまでに"
+        },
+        {
+          "word": "此れまでに",
+          "reading": "これまでに"
+        }
+      ],
+      "senses": [
+        {
+          "english_definitions": [
+            "before now",
+            "hitherto"
+          ],
+          "parts_of_speech": [
+            "Adverb (fukushi)"
+          ],
+          "links": [],
+          "tags": [
+            "Usually written using kana alone"
+          ],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": []
+        }
+      ],
+      "attribution": {
+        "jmdict": true,
+        "jmnedict": false,
+        "dbpedia": false
+      }
+    },
+    {
+      "slug": "これと言って",
+      "is_common": false,
+      "tags": [],
+      "jlpt": [],
+      "japanese": [
+        {
+          "word": "これと言って",
+          "reading": "これといって"
+        },
+        {
+          "word": "此れと言って",
+          "reading": "これといって"
+        }
+      ],
+      "senses": [
+        {
+          "english_definitions": [
+            "not worth mentioning",
+            "nothing special",
+            "nothing in particular",
+            "no notable ..."
+          ],
+          "parts_of_speech": [
+            "Expressions (phrases, clauses, etc.)",
+            "Adverb (fukushi)"
+          ],
+          "links": [],
+          "tags": [
+            "Usually written using kana alone"
+          ],
+          "restrictions": [],
+          "see_also": [],
+          "antonyms": [],
+          "source": [],
+          "info": [
+            "with neg. sentence"
+          ]
+        }
+      ],
+      "attribution": {
+        "jmdict": true,
+        "jmnedict": false,
+        "dbpedia": false
+      }
+    }
+  ]
+}
