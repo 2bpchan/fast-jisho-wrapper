@@ -1,5 +1,7 @@
+import re
 from tkinter import StringVar, Tk, ttk
 import MeCab
+import requests
 import whisper
 import os
 
@@ -18,8 +20,35 @@ model = whisper.load_model("small")
 
 mecab = MeCab.Tagger()
 
-print(mecab.parse("猿も木から落ちる").splitlines().map(lambda x: x.split("\t")[0] if "\t" in x else x))
-# TODO figure out how to map over a list of strings in python, the above code is not working
+
+def extract_terms(text):
+    sentence = mecab.parse(text).splitlines()
+    result = []
+    for line in sentence:
+        if line == "EOS":
+            break
+        entry = line.split("\t")
+        if not entry[4].startswith("助詞") and not entry[4].startswith("助動詞"):
+            result.append(entry[0])
+    return result
+
+def search_jisho(input):
+    url = "https://jisho.org/api/v1/search/words"
+    params = {"keyword": input}
+    
+    response = requests.get(url, params=params)
+    
+    if response.status_code == 200:
+        result = response.json()
+        
+        result_dict = {
+            "jlpt": result["data"][0]["jlpt"][0][-1] if len(result["data"][0]["jlpt"]) > 0 else 0,
+            "reading": result["data"][0]["japanese"][0]["reading"],
+            "english_definitions": result["data"][0]["senses"][0]["english_definitions"]
+        }
+        return result_dict
+    else:
+        raise Exception(f"Request failed with status code {response.status_code}")
 
 parsed_files = {}
 def parse_audio_files():
@@ -36,8 +65,17 @@ def parse_audio_files():
         result = model.transcribe(f"output/{filename}")
         # add to parsed_files
         parsed_files[filename] = result["text"]
-        print(result["text"])
-        display_text.set(display_text.get() + "\n" + result["text"])
+        # print(result["text"])
+        # display_text.set(display_text.get() + "\n" + result["text"])
+        terms = extract_terms(''.join(re.findall(r'[^\x00-\x7F]+', result["text"])))
+        # display_text.set(display_text.get() + "\n" + ", ".join(terms))
+        for term in terms:
+            try:
+                jisho_result = search_jisho(term)
+                display_text.set(display_text.get() + f"\n{term} (JLPT N{jisho_result['jlpt']}): Reading: {jisho_result['reading']}, Definitions: {', '.join(jisho_result['english_definitions'])}")
+            except Exception as e:
+                display_text.set(display_text.get() + f"\n{term}: No results found")
+
         
         break
         # check if the file is not being used by another process
