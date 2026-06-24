@@ -1,20 +1,28 @@
 import re
-from tkinter import StringVar, Tk, ttk
+import tkinter as tk
+from tkinter import ttk
 import MeCab
 import requests
 import whisper
 import os
+import romkan2
 
 
-root = Tk()
-frm = ttk.Frame(root, padding=10)
-frm.grid()
-ttk.Label(frm, text="Hello World!").grid(column=0, row=0)
-ttk.Button(frm, text="Quit", command=root.destroy).grid(column=1, row=0)
-# tk variable for the text area
-display_text = StringVar()
-# add a textarea to display the parsed text
-text_area = ttk.Label(frm, textvariable=display_text).grid(column=0, row=1)
+root = tk.Tk()
+root.title("Treeview")
+
+treeview = ttk.Treeview(columns=("Reading","Definitions"))
+
+treeview.heading("#0", text="JLPT Level")
+treeview.heading("Reading", text="Reading(s)")
+treeview.heading("Definitions", text="Definition(s)")
+treeview.column("#0", width=80, anchor="center")
+treeview.column("Reading", width=150)
+treeview.column("Definitions", width=300)
+
+treeview.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+
+
 model = whisper.load_model("small")
 # to keep track of parsed files
 
@@ -28,9 +36,12 @@ def extract_terms(text):
         if line == "EOS":
             break
         entry = line.split("\t")
-        if not entry[4].startswith("助詞") and not entry[4].startswith("助動詞"):
-            result.append(entry[0])
+        if not entry[4].startswith("助詞") and not entry[4].startswith("助動詞") and not entry[0].startswith("、") and not entry[0].startswith("。"):
+            result.append([entry[0], entry[1]])
+            print(entry)
+
     return result
+
 
 def search_jisho(input):
     url = "https://jisho.org/api/v1/search/words"
@@ -69,13 +80,13 @@ def parse_audio_files():
         # display_text.set(display_text.get() + "\n" + result["text"])
         terms = extract_terms(''.join(re.findall(r'[^\x00-\x7F]+', result["text"])))
         # display_text.set(display_text.get() + "\n" + ", ".join(terms))
-        for term in terms:
+        for term_list in terms:
             try:
-                jisho_result = search_jisho(term)
-                display_text.set(display_text.get() + f"\n{term} (JLPT N{jisho_result['jlpt']}): Reading: {jisho_result['reading']}, Definitions: {', '.join(jisho_result['english_definitions'])}")
+                # jisho_result = search_jisho(term_list[0])
+                treeview.insert('', 0, text=f"JLPT N?", values=(f"{romkan2.to_roma(term_list[1])} - {term_list[1]}", ', '.join(term_list[0])))
+                # add button?
             except Exception as e:
-                display_text.set(display_text.get() + f"\n{term}: No results found")
-
+                print(f"Error occurred while searching for {term_list[0]}: {e}")
         
         break
         # check if the file is not being used by another process
