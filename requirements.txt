@@ -1,0 +1,10 @@
+# Runtime dependencies for the project
+requests
+openai-whisper
+mecab-python3
+PyAudio
+whisper-mic
+romkan2
+
+# Note: PyAudio also requires the system PortAudio development library.
+# The setup script installs the appropriate package for macOS/Linux.
